@@ -4,9 +4,14 @@ Business goals:
  - Increase the income (recall)
  
  Our assumptions:
- - Rental amount is mostly depending on film ratingc and category
- 
-     Categories discription:
+ - Rental amount is mostly depending on film rating and category
+Ratings
+PG
+G
+NC-17
+PG-13
+R
+Categories discription:
      1-  Action
      2 - Animation
      3 - Children
@@ -16,8 +21,8 @@ Business goals:
      7 - Drama
      8 - Family
      9 - Foreign
-'10', 'Games
-'11', 'Horror
+    10 - Games
+    11 - Horror
 '12', 'Music
 '13', 'New
 '14', 'Sci-Fi
