@@ -4,8 +4,26 @@ Business goals:
  - Increase the income (recall)
  
  Our assumptions:
- - Rental amount is mostly depending on film ratingc
- - Rental amount depends on film category
+ - Rental amount is mostly depending on film ratingc and category
+ 
+     Categories discription:
+     1-  Action
+     2 - Animation
+     3 - Children
+     4 - Classics
+     5 - Comedy
+     6 - Documentary
+     7 - Drama
+     8 - Family
+     9 - Foreign
+'10', 'Games
+'11', 'Horror
+'12', 'Music
+'13', 'New
+'14', 'Sci-Fi
+'15', 'Sports
+'16', 'Travel
+
  - Number of MAU is depending on region 
  - Rental amount is depending on region 
  - What is the most attractive region
