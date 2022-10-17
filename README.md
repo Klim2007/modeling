@@ -23,8 +23,8 @@ Categories discription:
      9 - Foreign
     10 - Games
     11 - Horror
-'12', 'Music
-'13', 'New
+    12 - Music
+    13 - New
 '14', 'Sci-Fi
 '15', 'Sports
 '16', 'Travel
@@ -46,24 +46,22 @@ Categories discription:
   Choosing partametrs (for future data)
   Analysing importancies 
  
- 
-
  - Rental amount is mostly depending on film rating
- yes mount of income depends on film rating 
+ yes mount of income depends on film rating / number of customers also
  
- rating
-G        32 3103.509020
-NC-17    38 1967.524594
-PG       37 7147.546891
-PG-13    41 8957.025743
-R        37 1957.733446
-Name: amount, dtype: float64
+ rating  profit                 qantity of cust      
+G        32 3103 (minor profit) 76 700
+NC-17    38 1967                91 120
+PG       37 7147                89 904
+PG-13    41 8957 (mostly profitable rating) 99 413
+R        37 1957                 88 356
 
- - Number of MAU is depending on region
+
+ - Number of AU is depending on region
  
 
 
- - Number of MAU is depending on region 
+ - Number of AU is depending on region 
  - Rental amount is depending on region 
  - What is the most attractive region
  
