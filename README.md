@@ -1,16 +1,17 @@
 Our business is online  paid stream service 
 Business goals: 
  - Increase the number of mounthly active users (MAU) (precision)
- - Increase the income (recall)
+ - Predict the income based on film rating and rental lenght(recall)
+ - Predict rental lenght based on film rating 
  
  Our assumptions:
- - Rental amount is mostly depending on film rating and category
-Ratings
-PG
-G
-NC-17
-PG-13
-R
+- Rental amount is mostly depending on film rating and category
+- Ratings
+- PG
+- G
+- NC-17
+- PG-13
+- R
 Categories discription:
      1-  Action
      2 - Animation
@@ -25,13 +26,16 @@ Categories discription:
     11 - Horror
     12 - Music
     13 - New
-'14', 'Sci-Fi
-'15', 'Sports
-'16', 'Travel
+    14 - Sci-Fi
+    15 - Sports
+    16 - Travel
 
- - Number of MAU is depending on region 
- - Rental amount is depending on region 
- - What is the most attractive region
+ 1. Number of MAU is dependance on region 
+ 2. Rental amount  dependance on rating  
+ 3. What is the most attractive region
+ 4. Number of AU  depending on region
+ 5. Rentral length dependance on film category and rating
+
  
  Objectives
   1. Create data set with all needly data ( use automized fetching  data from database, then  save data into csv file)
@@ -41,12 +45,13 @@ Categories discription:
   - income
   - movies
   - region
-  4. Modeling method K-means (optional for 
-  5. Modeling method logistic regression 
+  - rental lenght to raiting and category
+  
+  4. Modeling method logistic regression 
   Choosing partametrs (for future data)
   Analysing importancies 
  
- - Rental amount is mostly depending on film rating
+2. Rental amount is mostly depending on film rating
  yes mount of income depends on film rating / number of customers also
  
  rating  profit                 qantity of cust      
@@ -57,14 +62,7 @@ PG-13    41 8957 (mostly profitable rating) 99 413
 R        37 1957                 88 356
 
 
- - Number of AU is depending on region
- 
 
-
- - Number of AU is depending on region 
- - Rental amount is depending on region 
- - What is the most attractive region
  
   
-  
-  
+   
