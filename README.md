@@ -9,12 +9,13 @@ Business goals:
 - Ratings
 - PG
 - G
-- NC-17
+- NC-17 
 - PG-13
 - R
+
 Categories discription:
-     1-  Action
-     2 - Animation
+     1-  Action (high profitable)
+     2 - Animation (high profitable)
      3 - Children
      4 - Classics
      5 - Comedy
@@ -26,15 +27,16 @@ Categories discription:
     11 - Horror
     12 - Music
     13 - New
-    14 - Sci-Fi
+    14 - Sci-Fi (high profitable)
     15 - Sports
-    16 - Travel
+    16 - Travel (low profitable)
 
  1. Number of MAU is dependance on region 
  2. Rental amount  dependance on rating  
  3. What is the most attractive region
  4. Number of AU  depending on region
  5. Rentral length dependance on film category and rating
+ 6. Build prediction model for hight profitable class of customers 
 
  
  Objectives
@@ -48,8 +50,7 @@ Categories discription:
   - rental lenght to raiting and category
   
   4. Modeling method logistic regression 
-  Choosing partametrs (for future data)
-  Analysing importancies 
+ - i ll create target column based 
  
 2. Rental amount is mostly depending on film rating
  yes mount of income depends on film rating / number of customers also
